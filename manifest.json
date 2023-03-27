@@ -1,0 +1,47 @@
+{
+    "manifest_version": 3,
+    "name": "Stock & Rounder Heads Up Display",
+    "version": "0.0.1",
+    "description": "HUD for Stock and Rounder",
+    "homepage_url": "https://github.com/dchrostowski/poker_hand_recorder_stock_rounder",
+    "icons": {
+        "120": "icon-120.png",
+        "48": "icon-48.png",
+        "128": "icon-128.png"
+    },
+    "permissions": [
+        "webRequest",
+        "activeTab"
+    ],
+    "action": {
+        "default_icon": "icon.png"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "lib/socket-sniffer.js",
+                "lib/jquery.min.js",
+                "lib/jquery-ui.min.js",
+                "lib/jquery-ui.min.css",
+                "lib/styles.css"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content/syringe.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}

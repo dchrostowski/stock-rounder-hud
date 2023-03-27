@@ -1,0 +1,125 @@
+.hud-main {
+    border-radius: 5px;
+}
+
+.hud-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius:5px;
+}
+
+.hud-preflop-advice .hud-muck-advice {
+    font-size:0.9em;
+}
+
+.hud-title {
+    margin-left:10px;
+    margin-right:10px;
+    color:black;
+    font-weight:bold;
+    font-family: sans-serif;
+    font-size:1em;
+}
+
+.hud-header-left {
+    margin-right:auto;
+    margin-left:2px;
+    color: black;
+    font-weight:bold;
+    font-family: sans-serif;
+    font-size:1em;
+}
+
+.hud-header-right {
+    margin-left: auto;
+    margin-right:2px;
+    color: black;
+    font-weight:bold;
+    font-family: sans-serif;
+    font-size:1em;
+}
+
+.hud-header {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    background-color: lightgrey;
+    border-radius: 5px;
+    font-size:1em;
+
+}
+
+.hud-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+    border-radius:5px;
+    color:black;
+    font-weight:bold;
+    font-family: sans-serif;
+}
+
+.minimize-hud {
+    font-size:1em;
+    font-weight:bold;
+}
+
+.close-hud {
+    font-size:1em;
+    font-weight:bold;
+}
+
+.hud-stats-table {
+    font-size: 0.85em;
+}
+
+.unicode-cards {
+    font-size: 1em;
+}
+
+table th {
+    color: black;
+}
+
+
+table td {
+    color:black;
+}
+
+td.low-sample-size {
+    color: red;
+    font-weight:bold;
+}
+
+td.medium-sample-size {
+    color: rgb(137, 107, 0);
+
+}
+
+td.high-sample-size {
+    color: green;
+}
+
+label.hud-footer-options-left {
+    font-size:0.7em;
+    width:50%;
+    color:'black';
+    font-weight:bold;
+    font-family: sans-serif;    
+}
+
+.hud-footer-options-right {
+    width:50%;
+    color:black;
+    font-weight:bold;
+    font-family: sans-serif;
+}
+
+.hud-footer-options-center {
+    font-size: 0.7em;
+    color:black;
+
+}
