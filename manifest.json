@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Stock & Rounder Heads Up Display",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "HUD for Stock and Rounder",
     "homepage_url": "https://github.com/dchrostowski/poker_hand_recorder_stock_rounder",
     "icons": {

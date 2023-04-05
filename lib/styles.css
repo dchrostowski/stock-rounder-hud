@@ -7,10 +7,12 @@
     flex-direction: column;
     justify-content: space-between;
     border-radius:5px;
+    font-size: 1.1em;
 }
 
-.hud-preflop-advice .hud-muck-advice {
-    font-size:0.9em;
+.hud-preflop-advice {
+    font-size:1.1em;
+    color:black;
 }
 
 .hud-title {
